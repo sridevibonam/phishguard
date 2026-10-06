@@ -18,7 +18,7 @@ function PasswordChecker() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:5000/check-password",
+        "https://phishguard-backend-p30x.onrender.com/check-password",
         {
           method: "POST",
           headers: {

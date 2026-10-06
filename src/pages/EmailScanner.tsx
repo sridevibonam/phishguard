@@ -18,7 +18,7 @@ function EmailScanner() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/scan-email", {
+      const response = await fetch("https://phishguard-backend-p30x.onrender.com/scan-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

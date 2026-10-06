@@ -37,7 +37,7 @@ function Dashboard() {
       setError("");
 
       const response = await fetch(
-        "http://127.0.0.1:5000/dashboard"
+        "https://phishguard-backend-p30x.onrender.com/dashboard"
       );
 
       if (!response.ok) {
