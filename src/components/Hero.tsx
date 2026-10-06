@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
     <section className="text-center py-24 px-6 bg-slate-950 text-white">
@@ -11,9 +13,12 @@ function Hero() {
         AI-powered cybersecurity analysis.
       </p>
 
-      <button className="bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-lg text-lg font-semibold transition">
+      <Link
+        to="/url-scanner"
+        className="inline-block bg-cyan-500 hover:bg-cyan-600 px-8 py-4 rounded-lg text-lg font-semibold transition"
+      >
         Start Scanning
-      </button>
+      </Link>
     </section>
   );
 }
