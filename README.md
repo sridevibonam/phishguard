@@ -185,14 +185,13 @@ This combination provides a simple but practical cybersecurity detection system.
 ---
 
 ## 📂 Project Structure
-
 ```text
 phishguard/
 │
 ├── backend/
 │   ├── app.py
 │   ├── model.pkl
-│   └── phishguard.db
+│   └── requirements.txt
 │
 ├── src/
 │   ├── components/
@@ -418,7 +417,7 @@ Possible future improvements include:
 - Advanced analytics
 - Email attachment scanning
 - Threat intelligence integration
-- Cloud deployment
+- Advanced cloud monitoring
 
 ---
 
